@@ -1,3 +1,5 @@
+import MyButton from "../../components/CityPage/myButton/myButton";
+
 function Lesson02() {
   const element = <h4>Это JSX элемент из переменной element!</h4>;
   const text = "Это строка из переменной text..";
@@ -40,6 +42,9 @@ function Lesson02() {
       ) : (
         <h4>To see image you need to authorize!</h4>
       )}
+      <div>
+        <MyButton />
+      </div>
     </div>
   );
 }
