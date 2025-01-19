@@ -1,16 +1,10 @@
 import style from "./ProfileCard.module.css";
 
-function ProfileCard() {
-  const emmettBroun = {
-    avatar:
-      "https://static.wikitide.net/greatcharacterswiki/thumb/4/4f/Doc_-_BackTTFuture_067Pyxurz.jpg/1200px-Doc_-_BackTTFuture_067Pyxurz.jpg",
-    fullname: "Emmett Brown",
-    birthday: "1920",
-    occupation: "Scientist",
-    hobbies: ["inventing", "time travel", "clocks"],
-  };
 
-  function showProfileCard(obj) {
+function ProfileCard(obj) {
+  
+
+  function showProfileCard() {
     if (obj.avatar && obj.fullname) {
       return (
         <div className={style.profileCard}>
@@ -33,7 +27,7 @@ function ProfileCard() {
     return <p>Not valid data!😒</p>;
   }
 
-  return <div>{showProfileCard(emmettBroun)}</div>;
+  return <div>{showProfileCard(obj)}</div>;
 }
 
 export default ProfileCard;
