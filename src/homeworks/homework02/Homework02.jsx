@@ -32,7 +32,7 @@ function Homework02() {
   const Einstein = {
     avatar:
       "https://moviepaws.com/wp-content/uploads/2015/10/luhad-einstein.jpg",
-    fullname: "Einstein",
+    fullname: "einstein",
     birthday: "1985",
     occupation: "Dog",
     hobbies: ["time travel", "sleeping", "eating"],
@@ -45,7 +45,7 @@ function Homework02() {
         <ProfileCard {...emmettBroun} />
         <ProfileCard {...martyMcFly} />
         <ProfileCard {...biffTannen} />
-        <ProfileCard {...Einstein} />
+        <ProfileCard {...einstein} />
       </div>
     </div>
   );
