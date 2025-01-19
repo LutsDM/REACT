@@ -39,9 +39,9 @@ function Homework02() {
   };
 
   return (
-    <div className= {style.Homework02}>
+    <div className={style.Homework02}>
       <h2 className={style.h2_title}>Back to The Future</h2>
-      <div className= {style.gridContainer}>
+      <div className={style.gridContainer}>
         <ProfileCard {...emmettBroun} />
         <ProfileCard {...martyMcFly} />
         <ProfileCard {...biffTannen} />
