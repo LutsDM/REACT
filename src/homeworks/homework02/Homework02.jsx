@@ -29,7 +29,7 @@ function Homework02() {
     hobbies: ["bullying", "gambling", "cars"],
   };
 
-  const Einstein = {
+  const einstein = {
     avatar:
       "https://moviepaws.com/wp-content/uploads/2015/10/luhad-einstein.jpg",
     fullname: "einstein",
